@@ -19,17 +19,17 @@ public class TransitionScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)){
+        /* if(Input.GetKeyDown(KeyCode.Space)){
             StartCoroutine(ChangeScene());
-        }
+        } */
         
     }
 
-    IEnumerator ChangeScene(){
+    /* IEnumerator ChangeScene(){
         animator.SetTrigger("Start");
 
         yield return new WaitForSeconds(animationToIntro.length);
 
         SceneManager.LoadScene(1);
-    }
+    } */
 }
