@@ -11,15 +11,10 @@ public class GameManager : MonoBehaviour
 
     public static GameManager shareInstance;
 
-    [SerializeField] public int sceneNumber;
     [SerializeField] public Canvas menuCanvas;
     [SerializeField] public Canvas settingsCanvas;
     [SerializeField] public Canvas infoCanvas;
     [SerializeField] public Canvas controlsCanvas;
-
-    public void ChangeScene(){
-        SceneManager.LoadScene(sceneNumber);
-    }
 
     public void ShowSettings(){
         menuCanvas.enabled = false;
