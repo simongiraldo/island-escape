@@ -17,10 +17,10 @@ public class SpaceEnemy : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<JhonMove>().transform;
-        enemy.enabled = true;
         canvasTikTakToe.enabled = false;
+        enemy.enabled = true;
     }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -46,6 +46,7 @@ public class SpaceEnemy : MonoBehaviour
 
     void PlayTictactoe(){
         canvasTikTakToe.enabled = true;
+        enemy.enabled = false;
         StartCoroutine(Clock());
     }
 
@@ -59,7 +60,7 @@ public class SpaceEnemy : MonoBehaviour
 
     /* -Algun enemigo toca al jugador
         -Se abre el canvas explicando lo que paso
-        -Se juega el triki 20 veces imp, desp facil
+        -Se juega el triki imp hasta que se haga trampa
         -Cuando gana, se muestra you win y se dice que jhon desperto del coma
         -Se quita el canvvas del triki
         -Aparece otra ves los enemigos y explotan con la animacion

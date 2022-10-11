@@ -4,9 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using static System.Random;
+using UnityEngine.SceneManagement;
 
 public class Triki : MonoBehaviour
 {
+    [SerializeField] Canvas trikiCanvas;
+    [SerializeField] Canvas backgroundCanvas;
+    [SerializeField] Canvas stuffCanvas;
+    [SerializeField] RectTransform background;
     [SerializeField] Button corner1;
     [SerializeField] Button edge1;
     [SerializeField] Button corner2;
@@ -31,6 +36,7 @@ public class Triki : MonoBehaviour
     string wins = "";
     List<int> winNumbers = new List<int>();
     private bool stillplaying = true;
+    bool userWins = false;
     List<int> voidPositions = new List<int>(){1, 2, 3, 4, 5, 6, 7, 8, 9};
     List<Text> textList = new List<Text>();/* Aca voy */
     List<Button> buttonsList = new List<Button>();
@@ -40,6 +46,7 @@ public class Triki : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        backgroundCanvas.enabled = false;
         buttonsList.Add(corner1);
         buttonsList.Add(edge1);
         buttonsList.Add(corner2);
@@ -148,6 +155,7 @@ public class Triki : MonoBehaviour
 
     public void SetGame(){
         stillplaying = true;
+        userWins = false;
         whoText.text = "";
         wins = "";
         winNumbers.Clear();
@@ -171,7 +179,6 @@ public class Triki : MonoBehaviour
 
     private void gameOver(List<int> who, List<int>numbers){
         bool winner = false;
-        bool userWins = false;
         if(who == selectedPositionsU){
             winner = true;
             userWins = true;
@@ -190,9 +197,6 @@ public class Triki : MonoBehaviour
         StartCoroutine(whoWins());
 
         if(winner){
-            if(userWins){
-                Debug.Log("Damn, you beat the game cheating");
-            }
             for(int i = 1; i <= textList.Count; i++){
                 if(numbers.Contains(i)){
                     textList[i-1].color = Color.green;
@@ -201,11 +205,49 @@ public class Triki : MonoBehaviour
             
         }
     }
+    
     IEnumerator whoWins()
     {
         yield return new WaitForSeconds(1.5f);
         whoText.text = wins;
+        if(userWins){
+            StartCoroutine(HideTriki());
+        }
     }
+    IEnumerator HideTriki()
+    {
+        yield return new WaitForSeconds(2f);
+        trikiCanvas.enabled = false;
+        StartCoroutine(PrepareTransitionScene());
+    }
+    IEnumerator PrepareTransitionScene()
+    {
+        yield return new WaitForSeconds(2f);
+        backgroundCanvas.enabled = true;
+        stuffCanvas.enabled = false;
+        background.gameObject.SetActive(true);
+        StartCoroutine(TransitionWin());
+        
+    }
+    IEnumerator TransitionWin()
+    {
+        yield return new WaitForSeconds(1.5f);
+        background.gameObject.SetActive(true);
+        LeanTween.scale(background, new Vector3(1, 1, 1), 0f);
+        LeanTween.scale(background, new Vector3(250, 250, 250), 4.5f).setEase(LeanTweenType.easeInOutQuad).setOnComplete(() =>
+        {
+            SceneManager.LoadScene(5);
+        });
+    }
+    private void ShowFinalScene()
+    {
+        SceneManager.LoadScene(5);
+        backgroundCanvas.enabled = false;
+
+    }
+
+
+    
     
 }
 
