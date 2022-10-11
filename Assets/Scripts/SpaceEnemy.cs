@@ -10,7 +10,7 @@ public class SpaceEnemy : MonoBehaviour
     [SerializeField] float speed = 1;
     [SerializeField] SpriteRenderer enemy;
     [SerializeField] Canvas canvasTikTakToe;
-    string frase = "Now Jhon is in a coma...he couldn't beat the spaceman... \nIn his dream, Jhon is playing tic-tac-toe, try to help him \n ...This is your last chance to win the game";
+    string frase = "Now Jhon is in a coma...he couldn't beat the spaceman... \nIn his dream, Jhon is playing tic-tac-toe, try to help him \n ...This is your last chance to win...";
     public Text texto;
 
     // Start is called before the first frame update
