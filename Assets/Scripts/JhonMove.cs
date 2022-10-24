@@ -9,13 +9,14 @@ public class JhonMove : MonoBehaviour
 
 public float Speed;
 public float JumpForce;
+public GameObject BulletPrefab;
 
 
-private Rigidbody2D Rigidbody2D;
-private float Horizontal;
-private bool Grounded;
-private Animator Animator;
-    
+    private Rigidbody2D Rigidbody2D;
+    private float Horizontal;
+    private bool Grounded;
+    private Animator Animator;
+    private float LastShoot;
     
     void Start()
     {
@@ -46,13 +47,34 @@ private Animator Animator;
         {
             Jump();
         }
+
+
+            if (Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.25f)
+        {
+            Shoot();
+            LastShoot = Time.time; 
+        }
     }
+
 
     private void Jump()
     {
         Rigidbody2D.AddForce(Vector2.up * JumpForce);
     }
- 
+
+    
+    private void Shoot()
+    {
+        Vector3 direction;
+
+        if (transform.localScale.x == 10.80244f ) direction = Vector3.right;
+        else direction= Vector3.left;
+
+        GameObject Bullet = Instantiate(BulletPrefab, transform.position + direction * 0.1f , Quaternion.identity);
+        Bullet.GetComponent<BulletScrip>().SetDirection(direction);
+    }
+
+
     private void FixedUpdate()
     {
         Rigidbody2D.velocity = new Vector2(Horizontal * Speed , Rigidbody2D.velocity.y);
