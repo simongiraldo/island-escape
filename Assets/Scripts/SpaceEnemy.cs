@@ -12,6 +12,7 @@ public class SpaceEnemy : MonoBehaviour
     [SerializeField] Canvas canvasTikTakToe;
     string frase = "Now Jhon is in a coma...he couldn't beat the spaceman... \nIn his dream, Jhon is playing tic-tac-toe, try to help him \n ...This is your last chance to win...";
     public Text texto;
+    bool flag = true;
 
     // Start is called before the first frame update
     void Start()
@@ -35,26 +36,31 @@ public class SpaceEnemy : MonoBehaviour
         if(horiontal < 0){
             enemy.flipX = true;
         }
+
+        if(canvasTikTakToe.enabled = true && flag){
+            flag = false;
+            StartCoroutine(Clock());
+        }
     }
 
 
     private void OnTriggerEnter2D(Collider2D collision){
-        if(collision.CompareTag("Player")){
+        /* if(collision.CompareTag("Player")){
             Invoke("PlayTictactoe", 0.3f);
-        }
+        } */
     }
 
     void PlayTictactoe(){
         canvasTikTakToe.enabled = true;
+        transform.localScale = new Vector3(0, 0, 0);
         enemy.enabled = false;
-        StartCoroutine(Clock());
     }
 
     IEnumerator Clock()
     {
         foreach(char i in frase){
             texto.text += i;
-            yield return new WaitForSeconds(0.06f);
+            yield return new WaitForSeconds(0.08f);
         }
     }
 
