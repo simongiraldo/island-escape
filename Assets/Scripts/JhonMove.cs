@@ -13,12 +13,14 @@ public class JhonMove : MonoBehaviour
 
 public float Speed;
 public float JumpForce;
+public GameObject BulletPrefab;
 
 
 private Rigidbody2D Rigidbody2D;
 private float Horizontal;
 private bool Grounded;
 private Animator Animator;
+private float LastShoot;
 public int vidaQueQuitaEnemigo;
 public SpriteRenderer jhonsito;
 [SerializeField] Slider sliderVida;
@@ -91,6 +93,12 @@ private bool invulnerable;
             Jump();
         }
 
+           if (Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.25f)
+        {
+            Shoot();
+            LastShoot = Time.time; 
+        }
+
         if(sliderVida.value <= 0 && sliderFlag){
             sliderFlag = false;
             vidasJugador--;
@@ -143,6 +151,17 @@ private bool invulnerable;
 
     public void RestartScene(){
         SceneManager.LoadScene(levelActual);
+    }
+
+    private void Shoot()
+    {
+        Vector3 direction;
+
+        if (transform.localScale.x == 10.80244f ) direction = Vector3.right;
+        else direction= Vector3.left;
+
+        GameObject Bullet = Instantiate(BulletPrefab, transform.position + direction * 0.1f , Quaternion.identity);
+        Bullet.GetComponent<BulletScrip>().SetDirection(direction);
     }
 
     private void Jump()

@@ -45,9 +45,9 @@ public class SpaceEnemy : MonoBehaviour
 
 
     private void OnTriggerEnter2D(Collider2D collision){
-        /* if(collision.CompareTag("Player")){
+        if(collision.CompareTag("Player")){
             Invoke("PlayTictactoe", 0.3f);
-        } */
+        }
     }
 
     void PlayTictactoe(){
