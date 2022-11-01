@@ -9,60 +9,124 @@ public class SpaceEnemy : MonoBehaviour
     Transform player;
     [SerializeField] float speed = 1;
     [SerializeField] SpriteRenderer enemy;
-    [SerializeField] Canvas canvasTikTakToe;
-    string frase = "Now Jhon is in a coma...he couldn't beat the spaceman... \nIn his dream, Jhon is playing tic-tac-toe, try to help him \n ...This is your last chance to win...";
-    public Text texto;
-    bool flag = true;
+    [SerializeField] Slider sliderVida;
+
+    [SerializeField] Canvas backgroundCanvas;
+    [SerializeField] Canvas stuffCanvas;
+    [SerializeField] RectTransform background; 
+    private string ganoPrefsname = "Gano";
+    private int ganoo = 0;
+    private int levelActual;
+    [SerializeField] Slider sliderBoleano;
 
     // Start is called before the first frame update
+
+    void Awake(){
+        LoadGano();
+        if(sliderBoleano.value == 50 && ganoo == 3){
+            Debug.Log("coronation");
+            StartCoroutine(mostrarFinal());
+        } 
+        else if(sliderBoleano.value == 40){
+            ganoo = 3;
+            SaveGano();
+        }
+
+    }
+
+    void OnDestroy(){
+        SaveGano();
+    }
+
+
+    void OnLevelWasLoaded(int level){
+        if(level == 4){
+            ganoo = 0;
+            SaveGano();
+        }
+        levelActual = level;
+    }
     void Start()
     {
-        player = FindObjectOfType<JhonMove>().transform;
-        canvasTikTakToe.enabled = false;
-        enemy.enabled = true;
+        if(levelActual == 4){
+            backgroundCanvas.enabled = false;
+            player = FindObjectOfType<JhonMove>().transform;
+            enemy.enabled = true;
+        }
     }
     
     // Update is called once per frame
     void Update()
     {
-        Vector2 direction = player.position - transform.position;
-        transform.position += (Vector3)direction * Time.deltaTime * speed;
+        if(levelActual == 4){
+            Vector2 direction = player.position - transform.position;
+            transform.position += (Vector3)direction * Time.deltaTime * speed;
 
-        float horiontal = Input.GetAxis("Horizontal");
+            float horiontal = Input.GetAxis("Horizontal");
 
-        if(horiontal > 0){
-            enemy.flipX = false;
-        }
-        if(horiontal < 0){
-            enemy.flipX = true;
+            if(horiontal > 0){
+                enemy.flipX = false;
+            }
+            if(horiontal < 0){
+                enemy.flipX = true;
+            }
         }
 
-        if(canvasTikTakToe.enabled = true && flag){
-            flag = false;
-            StartCoroutine(Clock());
-        }
     }
 
+    private void SaveGano(){
+        PlayerPrefs.SetInt(ganoPrefsname, ganoo);
+    }
+
+    private void LoadGano(){
+        ganoo = PlayerPrefs.GetInt(ganoPrefsname, 0);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision){
         if(collision.CompareTag("Player")){
-            Invoke("PlayTictactoe", 0.3f);
+            if(sliderVida.value <= 10){
+                SceneManager.LoadScene(5);
+            }
         }
     }
 
-    void PlayTictactoe(){
-        canvasTikTakToe.enabled = true;
-        transform.localScale = new Vector3(0, 0, 0);
-        enemy.enabled = false;
+    IEnumerator mostrarFinal(){
+        if(sliderBoleano.value == 50){
+            Debug.Log("Confirmamos coronation");
+            yield return new WaitForSeconds(2f);
+            Destroy(enemy);
+            enemy.enabled = false;
+        }
+        StartCoroutine(PrepareTransitionScene());
     }
 
-    IEnumerator Clock()
+    IEnumerator PrepareTransitionScene()
     {
-        foreach(char i in frase){
-            texto.text += i;
-            yield return new WaitForSeconds(0.08f);
-        }
+        yield return new WaitForSeconds(2f);
+        backgroundCanvas.enabled = true;
+        stuffCanvas.enabled = false;
+        background.gameObject.SetActive(true);
+        StartCoroutine(TransitionWin());
+        
     }
+    IEnumerator TransitionWin()
+    {
+        yield return new WaitForSeconds(1.5f);
+        background.gameObject.SetActive(true);
+        LeanTween.scale(background, new Vector3(1, 1, 1), 0f);
+        LeanTween.scale(background, new Vector3(250, 250, 250), 4.5f).setEase(LeanTweenType.easeInOutQuad).setOnComplete(() =>
+        {
+            SceneManager.LoadScene(6);
+        });
+    }
+    private void ShowFinalScene()
+    {
+        SceneManager.LoadScene(6);
+        backgroundCanvas.enabled = false;
+
+    }
+
+    
 
     /* -Algun enemigo toca al jugador
         -Se abre el canvas explicando lo que paso

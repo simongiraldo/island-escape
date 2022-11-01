@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 3.unity
     guid: 4a6d56be6aeff9748a18c9fcd0da22a8
   - enabled: 1
+    path: Assets/Scenes/coma.unity
+    guid: 976224c1cdcc9eb44a9fbf70587ca1b4
+  - enabled: 1
     path: Assets/Scenes/FinalScene.unity
     guid: d89342b95518b5a4796be9c1fa896fc1
   m_configObjects: {}
