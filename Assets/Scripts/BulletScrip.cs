@@ -35,4 +35,33 @@ public class BulletScrip : MonoBehaviour
         Destroy(gameObject);
     }
 
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Grunt1 grunt = collision.GetComponent<Grunt1>();
+       Grunt2 grunt2 = collision.GetComponent<Grunt2>();
+        Grunt3 grunt3 = collision.GetComponent<Grunt3>();
+        GruntBoss gruntboss = collision.GetComponent<GruntBoss>();
+
+       if (grunt != null)
+        {
+            grunt.Hit();
+        }
+
+        if (grunt2 != null)
+        {
+            grunt2.Hit();
+        }
+
+         if (grunt3 != null)
+        {
+            grunt3.Hit();
+        }
+
+        if (gruntboss != null)
+        {
+            gruntboss.Hit();
+        }
+    }
+
 }
