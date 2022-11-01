@@ -1,0 +1,1608 @@
+fileFormatVersion: 2
+guid: db299ed46e1b0664995823d73192e7f4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 735
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18df59fced961149ac68ed993bdeaa5
+      internalID: -1642850950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 735
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d96d802f53c1a74ea4fcdedc9753340
+      internalID: -1059610417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_2
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 735
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c58763fddd90e408a22c150126c3e6
+      internalID: -1109646680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 734
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e781b5d6d2e79b4ca4f4567f2fd06f2
+      internalID: -487151023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_4
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 832
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91591aa7aca4de45b323b48bffbf669
+      internalID: 823012396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_5
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 829
+        width: 50
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e90d7f344c444f4c813c90865b8c08e
+      internalID: 1504282426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_6
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 818
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750fa3e622178624696078fefc857a3d
+      internalID: -781999480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_7
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 815
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be87fa3fca317934c901fd30a67f5584
+      internalID: 49302869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_8
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 796
+        width: 70
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e0709a55a96fb4c8fa41fa2a442c76
+      internalID: -113176258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_9
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 758
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d9fe5ce02f3ce43a679c5a61c10478
+      internalID: -1890376860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_10
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 655
+        width: 51
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e63d919fa57e24587ad52a2baa91ad
+      internalID: -250172937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_11
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 749
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f0eb5e59e5d924aaecfff6e251d9c8
+      internalID: 659254199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_12
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 783
+        width: 65
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05a1fab464420048a625b9f54de08b1
+      internalID: 1876440415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_13
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 736
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a6afb369d01a54b8e0f00ea578d54d
+      internalID: 1831532393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_14
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 745
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68bf228ca0f17c4cb0886278e4911df
+      internalID: -2025715503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_15
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 647
+        width: 42
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6440ba50572080045814c59dbd82f7d9
+      internalID: 205467305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_16
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 580
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eaa75bfe3d00074d9f59df0a255c22f
+      internalID: 963888693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 579
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70670be01111dd54cb231b6768fd67b4
+      internalID: -579650976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_18
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 579
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a967731bf31a9b543875fc53c9244ef0
+      internalID: 13733918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_19
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 578
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9263ac3ba52a17e48a6953f2a0bb881a
+      internalID: -428500955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_20
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 658
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5bd71dd7695bb49915ed840fb0fc46
+      internalID: -1147842235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_21
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 678
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a1d57a8ad51e2449fa1dd763005ad9
+      internalID: 1286370674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_22
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 678
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d03fd0b6a113fa45a61150a963f8d68
+      internalID: 1537554102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_23
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 669
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa8e348ef6d2f04fb93549f818346e9
+      internalID: -1806459464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_24
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 654
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0796a69e31a09a49a7406c0d196d124
+      internalID: -1145366099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_25
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 594
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a72f1f230cd2046a2f9149da6aeea0
+      internalID: -1541714844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_26
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 580
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80416769af62223429858ee161f05dc6
+      internalID: 384833422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_27
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 597
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c9ff65fc49602408040c0218de93de
+      internalID: 465532068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_28
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 584
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86c7f3485799874cbd3adf2cfecbf9e
+      internalID: 331784599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_29
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 591
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116fcd33985c15849876d57c0308c045
+      internalID: 1111860569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_30
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 599
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadb7e29d9e6d204d8f785ef54af8a21
+      internalID: 1998788522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_31
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 585
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f97262cdc96154f8d281c430564f4c
+      internalID: 1169640684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_32
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 518
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4834e39e11134f64c8b2656b61f4fd7d
+      internalID: 359267359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_33
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 582
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fcb0535e19638428ccc5265c3bfc6b
+      internalID: 1199809535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_34
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 579
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32476c3aa44fee7418a0b5ad7e9ac83f
+      internalID: -1036251793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 422
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631a78fb492850b499e3c599ddfa6bcb
+      internalID: -2112623326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_36
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 421
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b166d21b7c8024998f6fc231b4e04c
+      internalID: -23391102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_37
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 420
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a374e0c6380f2524d8546bdcd662ee61
+      internalID: -755312483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_38
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 420
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4905f3453303d6449839f1e111e3788b
+      internalID: -276195509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_39
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 419
+        width: 51
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8cbb7f7bcd1e644848b5ccd810afd4
+      internalID: -1142802447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_40
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 532
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca9d1f578bc0274692f05c249efe64f
+      internalID: 2039605309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_41
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 520
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3741f388d619c64b847908ba5ab0452
+      internalID: -48432684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_42
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 429
+        width: 44
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d35ad1745b40884c8ca78b873c69ae8
+      internalID: 358590255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_43
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 539
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539aedac49e298f46a747c0e7926841e
+      internalID: 52340620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_44
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 437
+        width: 108
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b24494670bc04d4292005b960f1987a
+      internalID: 472088688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_45
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 264
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f3d82b4141a1b41830b778ab7b03ea
+      internalID: -1483028682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_46
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 263
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d57aeb7ae3204c4fbcf2ce84de9489d
+      internalID: -956779554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_47
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 263
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55333e7f30d59a448b30491c1a89b2c8
+      internalID: -1203258805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_48
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 262
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0114cb94e6b44684a843e823e2a9a572
+      internalID: -939985390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_49
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 358
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419ddf3fc84fed949b422757bb3a5310
+      internalID: 881928230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_50
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 360
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71e44ccb343f8e4fa663a1cb16c9e11
+      internalID: 1010256068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_51
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 355
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35dad04051d862488e6691b11544f15
+      internalID: 236036037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_52
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 358
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d694ba800f21c47832a6be78173fec
+      internalID: -325659863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_53
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 359
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b6210a2f62b4048b6781ddad50fd46
+      internalID: 1728102342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_54
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 337
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d27392b7ea7c6b48aa8d6e1f2b4a29e
+      internalID: 1587870333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_55
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 345
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13db4983042a1f48998d816132e96a6
+      internalID: -870098226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_56
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 334
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b1121d29310794c96df1e37fd6fe63
+      internalID: -413649110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_57
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 344
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e276834af498d438515d73b52f574c
+      internalID: 1319686142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_58
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 319
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7706dd22c5f71be47a9cd7a6fa7e2f5d
+      internalID: 1637084915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_59
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 322
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5f4e71f7ef85646a4da2d44cc81d86
+      internalID: -1765188106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_60
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 111
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1dbc38bb2751746b3cc116772a7b4d
+      internalID: -905351897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_61
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 111
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e46c4a4dccdb343a36b3080804dd69
+      internalID: 1291227869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_62
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 110
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815f538ff03de524d81e3a3dacc4fb76
+      internalID: -767937852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_63
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 110
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f534a7455a8ab344e9601abdba680b34
+      internalID: 1739919051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_64
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 108
+        width: 205
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf3caf8526546a4ebd762fde894e9d6
+      internalID: -58237081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_65
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 236
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0a73ba021336340a9d3873a51f3870
+      internalID: 462814763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel-art-beach-preview_66
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 135
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b8f3052994b8a43b0dbfcbfa21c9a8
+      internalID: 2144516680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pixel-art-beach-preview_13: 1831532393
+      Pixel-art-beach-preview_20: -1147842235
+      Pixel-art-beach-preview_29: 1111860569
+      Pixel-art-beach-preview_53: 1728102342
+      Pixel-art-beach-preview_5: 1504282426
+      Pixel-art-beach-preview_3: -487151023
+      Pixel-art-beach-preview_14: -2025715503
+      Pixel-art-beach-preview_34: -1036251793
+      Pixel-art-beach-preview_32: 359267359
+      Pixel-art-beach-preview_39: -1142802447
+      Pixel-art-beach-preview_27: 465532068
+      Pixel-art-beach-preview_10: -250172937
+      Pixel-art-beach-preview_62: -767937852
+      Pixel-art-beach-preview_65: 462814763
+      Pixel-art-beach-preview_9: -1890376860
+      Pixel-art-beach-preview_30: 1998788522
+      Pixel-art-beach-preview_16: 963888693
+      Pixel-art-beach-preview_36: -23391102
+      Pixel-art-beach-preview_31: 1169640684
+      Pixel-art-beach-preview_19: -428500955
+      Pixel-art-beach-preview_23: -1806459464
+      Pixel-art-beach-preview_12: 1876440415
+      Pixel-art-beach-preview_50: 1010256068
+      Pixel-art-beach-preview_24: -1145366099
+      Pixel-art-beach-preview_6: -781999480
+      Pixel-art-beach-preview_46: -956779554
+      Pixel-art-beach-preview_18: 13733918
+      Pixel-art-beach-preview_55: -870098226
+      Pixel-art-beach-preview_59: -1765188106
+      Pixel-art-beach-preview_4: 823012396
+      Pixel-art-beach-preview_41: -48432684
+      Pixel-art-beach-preview_35: -2112623326
+      Pixel-art-beach-preview_43: 52340620
+      Pixel-art-beach-preview_44: 472088688
+      Pixel-art-beach-preview_63: 1739919051
+      Pixel-art-beach-preview_40: 2039605309
+      Pixel-art-beach-preview_54: 1587870333
+      Pixel-art-beach-preview_57: 1319686142
+      Pixel-art-beach-preview_8: -113176258
+      Pixel-art-beach-preview_47: -1203258805
+      Pixel-art-beach-preview_60: -905351897
+      Pixel-art-beach-preview_49: 881928230
+      Pixel-art-beach-preview_52: -325659863
+      Pixel-art-beach-preview_17: -579650976
+      Pixel-art-beach-preview_21: 1286370674
+      Pixel-art-beach-preview_7: 49302869
+      Pixel-art-beach-preview_0: -1642850950
+      Pixel-art-beach-preview_58: 1637084915
+      Pixel-art-beach-preview_66: 2144516680
+      Pixel-art-beach-preview_1: -1059610417
+      Pixel-art-beach-preview_11: 659254199
+      Pixel-art-beach-preview_26: 384833422
+      Pixel-art-beach-preview_28: 331784599
+      Pixel-art-beach-preview_42: 358590255
+      Pixel-art-beach-preview_15: 205467305
+      Pixel-art-beach-preview_25: -1541714844
+      Pixel-art-beach-preview_61: 1291227869
+      Pixel-art-beach-preview_37: -755312483
+      Pixel-art-beach-preview_33: 1199809535
+      Pixel-art-beach-preview_64: -58237081
+      Pixel-art-beach-preview_56: -413649110
+      Pixel-art-beach-preview_22: 1537554102
+      Pixel-art-beach-preview_45: -1483028682
+      Pixel-art-beach-preview_2: -1109646680
+      Pixel-art-beach-preview_51: 236036037
+      Pixel-art-beach-preview_38: -276195509
+      Pixel-art-beach-preview_48: -939985390
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
