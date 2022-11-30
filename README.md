@@ -1,6 +1,6 @@
 # ISLAND ESCAPE 🏝 ⛵🐸👩‍🚀
 
-*Island escape is a  2D viodeogame created for PCs with different operating systems: Windows, IOS y Linux*
+*Island escape is a  2D viodeogame created for PCs with different operating systems: Windows, IOS & Linux*
 
 -The game was made completely with unity, 3 basic levels that you need to complete with no option to save the progress, just one sitting.
 
